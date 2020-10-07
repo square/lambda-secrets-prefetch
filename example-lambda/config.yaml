@@ -1,0 +1,11 @@
+SecretManagers:
+- prefix: "arn:aws:secretsmanager:us-east-1:9876543210:secret:"
+  secrets:
+    - secretname: testsecrets
+    - secretname: testsecrets2
+      filename: renamesecret
+- prefix: "arn:aws:secretsmanager:us-east-1:9876543210:secret:"
+  secrets:
+    - secretname: anothersecret
+SecretsHome: /tmp/secrets
+
