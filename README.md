@@ -4,7 +4,7 @@
 [![release](https://img.shields.io/github/release/square/lambda-secrets-prefetch.svg?style=flat)](https://github.com/square/lambda-secrets-prefetch/releases)
 [![Tests](https://github.com/square/lambda-secrets-prefetch/workflows/Go/badge.svg)](https://github.com/square/lambda-secrets-prefetch/actions?query=workflow%3AGo)
 
-Lambda extension to pre-fetch secrets from AWS SecretsManager. This tool is discussed in detail in our [blog post](https://developer.squareup.com/blog/using-lambda-extensions-to-accelerate-secrets-access).
+Lambda extension to pre-fetch secrets from AWS SecretsManager. This tool is discussed in detail in our [blog post](https://developer.squareup.com/blog/using-aws-lambda-extensions-to-accelerate-aws-secrets-manager-access/).
 
 ## Features
 **Load secrets before invocation:** This extension loads and caches secrets to `/tmp` before the lambda recieves an invoke, cutting down on response time.
