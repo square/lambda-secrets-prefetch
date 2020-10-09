@@ -109,7 +109,7 @@ func populateSecrets(config *Config) {
 
 	awsSecretsManager, err := secrets.New()
 	if err != nil {
-		log.Errorf("unable to initiliaze AWSSecrets: %v", err)
+		log.Errorf("[Extension] Unable to initiliaze AWSSecrets: %v", err)
 	}
 
 	for i := range config.SecretManagers {
